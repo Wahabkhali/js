@@ -1,0 +1,73 @@
+body{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-image: url(./assist/img/ramdan.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+.left-btn{
+    margin-left: 180px;
+   
+}
+
+.talks-2 span{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 400;
+
+}
+.taal{
+    height: 250px;
+    width: 400px !important;
+}
+.btn{
+    margin-top: 30px;
+    background-color:goldenrod;
+    width: 85px;
+    color: #000;
+    font-weight: 700;
+  
+}
+.room{
+    width: 385px;
+    margin-left: 150px;
+    margin-top: 30px;
+    color: white;
+  
+}
+.talks-2{
+    /* margin-top: 160px; */
+    border-radius: 100px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+  
+}
+.talks-card {
+  
+   background-image: url(./assist/img/back.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.right-btn{
+    margin-left: 20px;
+}
+.room span{
+    font-size: 140px;
+  
+}
+.image{
+    margin-left: 550px;
+
+}
+.image img{
+    width: 300px;
+    height: 180px;
+   margin-left: 50px;
+}
+.img-2 img{
+    margin-left: 170px;
+   width: 400px;
+}
