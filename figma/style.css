@@ -1,0 +1,171 @@
+.start{
+    width: 400px;
+    margin-left: 500px;
+    background: rgba(33, 40, 50, 1);
+    height: 1000px;
+}
+.start img{
+
+    width: 93px;
+    height: 62px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.start strong{
+    font-size: 21px;
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 1);;
+
+}
+.start span{
+    font-size: 22px;
+    margin-left: 0px;
+    color:  rgba(254, 211, 106, 1);
+
+
+    
+
+}
+.img img{
+    width: 321px;
+    height: 322px;
+    margin-left: 40px;
+    background: rgba(255, 255, 255, 1);
+
+}
+.heading{
+    width: 376px;
+    height: 240px;
+}
+.heading h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 81px;
+    font-weight: 600px;
+    margin-left:40px ;
+    line-height: 80px;
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading-2 h2{
+    color:rgba(254, 211, 106, 1);
+    font-size: 71px;
+    font-weight: 600px;
+    margin-left:40px ;
+    /* line-height: 60px; */
+   
+}
+.btn{
+    width: 316px;
+    height: 67px;
+    border-radius: 5px;
+   background-color: rgba(254, 211, 106, 1);
+   margin-left: 40px;
+   color: #000;
+}
+.button{
+    margin-top: 40px;
+}
+.second{
+    width: 400px;
+    margin-left: 500px;
+    background: rgba(33, 40, 50, 1);
+    height: 1000px;
+  
+}
+.second img{
+    width: 149px;
+    height: 100px;
+    margin-top: 138px;
+    margin-left: 126px;
+}
+.second strong{
+    font-size: 31px;
+    margin-left:136px ;
+ 
+    color: rgba(255, 255, 255, 1);;
+
+}
+.second span{
+    font-size: 32px;
+    color:  rgba(254, 211, 106, 1);
+}
+.wel h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 26px;
+    margin-left: 26px;
+    margin-top: 30px;
+}
+.form-2{
+    color: rgba(140, 170, 185, 1);
+font-size: 18px;
+font-weight: 400;
+margin-left:26px ;
+margin-top: 10px;
+}
+.form-3{
+    width: 335px;
+    margin-left: 26px;
+    height: 58px;
+    background: rgba(69, 90, 100, 1);
+border-radius: 3px !important;
+}
+.btn-2{
+    width: 335px;
+    height: 67px;
+    border-radius: 5px;
+   background-color: rgba(254, 211, 106, 1);
+   margin-left: 26px;
+   color: #000; 
+   margin-top: 50px;
+}
+.third{
+    width: 400px;
+    margin-left: 500px;
+    background: rgba(33, 40, 50, 1);
+    height: 1000px;
+  
+
+}
+.third h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 500px;
+    margin-left: 125px;
+    line-height: 97.5px;
+   
+}
+.awi{
+    color: rgba(255, 255, 255, 1);
+font-size: 20px;
+font-weight: 600;
+margin-left:26px ;
+margin-top: 10px;
+
+}
+.yebi{
+    width: 335px;
+    margin-left: 26px;
+    height: 58px;
+    background: rgba(69, 90, 100, 1);
+border-radius: 3px !important;
+}
+.yebi-2{
+    width: 335px;
+    margin-left: 26px;
+    height: 78px;
+    background: rgba(69, 90, 100, 1);
+border-radius: 3px !important;
+}
+.btn-3{
+
+    width: 335px;
+    height: 47px;
+    border-radius: 5px;
+   background-color: rgba(254, 211, 106, 1);
+   margin-left: 26px;
+   color: #000; 
+   margin-top: 50px;
+}
+.hard li{
+    color: rgba(255, 255, 255, 1);
+}
