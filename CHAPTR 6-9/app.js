@@ -65,29 +65,25 @@
 // variable.
 // c) Take obtained marks for first subject from user and
 // stored it in different variable.
-
-// ALERTS | JAVASCRIPT
-
-// Page 3 of 3
 // d) Take obtained marks for remaining 2 subjects from user
 // and store them in variables.
 // e) Now calculate total marks and percentage and show the
 // result in browser like this.(Hint: user table)
 
-var subject = "urdu";
-var subject_2 = "english";
-var subject_3 = "math";
-document.write(`${subject} <br/> ${subject_2} <br/> ${subject_3}`);
-var number = 100;
-var number_2 = 100;
-var number_3 = 100;
-document.write(`${number} <br/> ${number_2} <br/> ${number_3}`);
-var obtained_mark = 54; 
-var obtained_2 = 54;
-var obtained_3 = 48;
-document.write(`${obtained_mark} <br/> ${obtained_2} <br/> ${obtained_3}`);
-var obtained_mark = "54%"; 
-var obtained_2 = "54%";
-var obtained_3 = "48%";
-document.write(`${obtained_mark} <br/> ${obtained_2} <br/> ${obtained_3}`);
-document.write(`${number + number_2 + number_3}      ${obtained_mark + obtained_2 + obtained_3 / obtained_mark,obtained_2,obtained_3}  `)
+// var subject = "urdu";
+// var subject_2 = "english";
+// var subject_3 = "math";
+// document.write(`${subject} <br/> ${subject_2} <br/> ${subject_3}`);
+// var number = 100;
+// var number_2 = 100;
+// var number_3 = 100;
+// document.write(`${number} <br/> ${number_2} <br/> ${number_3}`);
+// var obtained_mark = 54; 
+// var obtained_2 = 54;
+// var obtained_3 = 48;
+// document.write(`${obtained_mark} <br/> ${obtained_2} <br/> ${obtained_3}`);
+// var obtained_mark = "54%"; 
+// var obtained_2 = "54%";
+// var obtained_3 = "48%";
+// document.write(`${obtained_mark} <br/> ${obtained_2} <br/> ${obtained_3}`);
+// document.write(`${number + number_2 + number_3}      ${obtained_mark + obtained_2 + obtained_3 / obtained_mark,obtained_2,obtained_3}  `)
