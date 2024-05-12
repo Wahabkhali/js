@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.card{
+    margin-left: 450px;
+    width: 40rem;
+    height: 25rem;
+}
+.right{
+    margin-left: 100px;
+}
+.card-body{
+background-image: url(./assist/wapaper.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 650px;
+}
+.card-body button{
+   margin-top: 60px;
+   margin-left: 210px;
+   width: 165px;
+   height: 50px;
+   background-color: white;
+}
+.card-body input{
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+  
+  
+   
+
+}
+.main h1{
+    margin-left: 535px;
+    margin-top: 30px;
+font-weight: 700;
+    font-size: 37px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+  color: #85c26a;
+
+}
+.h3{
+    margin-left: 170px;
+    margin-top: 150px;
+    width: 250px;
+    height: 370px;
+    font-size: 24px;
+ background-color: #fff;
+
+   
+  
+}
+.h3 h3{
+ color: black;
+    margin-top: 80px;
+    overflow-y: scroll;
+    height: 370px;
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
