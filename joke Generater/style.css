@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.main{
+    width: 60%;
+    height: 60%;
+    background-color: rgb(149 201 193 / 60%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(20px);
+    gap: 200px;
+    border-radius: 20px;
+    padding: 40px;
+}
+.main button{
+    width: 20%;
+    height: 10%;
+    border-radius: 20px;
+    background-color: rgb(40, 52, 52);
+    color: #ffff;
+    outline: none;
+    cursor: pointer;
+    
+    
+
+}
+button :hover{
+    background-color: rgb(107, 137, 137);
+    color: black;
+}
+.main p{
+    height: 50px;
+}
+@media only screen and (max-width: 386px) {
+   .main {
+    width: 85%;
+    height: 85%;
+    gap: 400px;
+
+   }
+   .main button{
+    width: 50%;
+    height: 10%;
+    border-radius: 10px;
+    margin-top: 100px;
+    background-color: lightsalmon;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+   }
+   body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px; 
+   }
+ 
+}
+
+
+@media only screen and (max-width: 786px) {
+    .main {
+     width: 85%;
+     height: 85%;
+     gap: 400px;
+ 
+    }
+    .main button{
+     width: 50%;
+     height: 10%;
+     border-radius: 10px;
+     margin-top: 100px;
+     background-color: lightsalmon;
+     color: #000;
+     font-family:'Times New Roman', Times, serif;
+     font-size: 20px;
+    }
+    body{
+        font-family:'Times New Roman', Times, serif;
+     font-size: 25px;
+    }
+  
+ }
+
+ @media only screen and (max-width: 986px) {
+    .main {
+     width: 85%;
+     height: 85%;
+     gap: 400px;
+ 
+    }
+    .main button{
+     width: 50%;
+     height: 10%;
+     border-radius: 10px;
+     margin-top: 100px;
+     background-color: lightsalmon;
+     color: #000;
+     font-family:'Times New Roman', Times, serif;
+     font-size: 20px;
+    }
+    body{
+        font-family:'Times New Roman', Times, serif;
+     font-size: 25px;
+    }
+  
+ }
