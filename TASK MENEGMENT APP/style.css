@@ -1,0 +1,337 @@
+body{
+    background-color: #000000e0;
+    scroll-behavior: smooth;
+}
+
+.start{
+    width: 400px;
+    margin-left: 500px;
+    background: rgba(33, 40, 50, 1);
+    height: 1000px;
+}
+.start img{
+
+    width: 93px;
+    height: 62px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.start strong{
+    margin-left: 21px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 800;
+    font-size: 23px;
+}
+.start span{
+    font-size: 23px;
+    left: 2px;
+    color:  rgba(254, 211, 106, 1);
+    font-weight: 800;
+
+    
+
+}
+.img img{
+    width: 321px;
+    height: 322px;
+    margin-left: 40px;
+    background: rgba(255, 255, 255, 1);
+
+}
+.heading{
+    width: 376px;
+    height: 240px;
+}
+.heading h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 81px;
+    font-weight: 600px;
+    margin-left:40px ;
+    line-height: 80px;
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading-2 h2{
+    color:rgba(254, 211, 106, 1);
+    font-size: 71px;
+    font-weight: 600px;
+    margin-left:40px ;
+    /* line-height: 60px; */
+   
+}
+.btn{
+    width: 316px;
+    height: 67px;
+    border-radius: 5px;
+   background-color: rgba(254, 211, 106, 1);
+   margin-left: 40px;
+   color: #000;
+}
+.button{
+    margin-top: 40px;
+}
+.second{
+    width: 400px;
+    margin-left: 500px;
+    background: rgba(33, 40, 50, 1);
+    height: 1000px;
+  
+}
+.second img{
+    width: 149px;
+    height: 100px;
+    margin-top: 138px;
+    margin-left: 126px;
+}
+.second strong{
+    
+    margin-left:148px ;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 800;
+    font-size: 23px;
+
+}
+.second span{
+    font-size: 23px;
+    color:  rgba(254, 211, 106, 1);
+    font-weight: 800;
+}
+.wel h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 26px;
+    margin-left: 26px;
+    margin-top: 30px;
+}
+.form-2{
+    color: rgba(140, 170, 185, 1);
+font-size: 18px;
+font-weight: 400;
+margin-left:26px ;
+margin-top: 10px;
+}
+.form-3{
+    width: 335px;
+    margin-left: 26px;
+    height: 58px;
+    background: rgba(69, 90, 100, 1);
+border-radius: 3px !important;
+}
+.btn-2{
+    width: 335px;
+    height: 67px;
+    border-radius: 5px;
+   background-color: rgba(254, 211, 106, 1);
+   margin-left: 26px;
+   color: #000; 
+   margin-top: 50px;
+}
+.third{
+    width: 400px;
+    margin-left: 500px;
+    background: rgba(33, 40, 50, 1);
+    height: 1200px;
+  
+
+}
+.third h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 500px;
+    margin-left: 125px;
+    line-height: 97.5px;
+   
+}
+.awi{
+    color: rgba(255, 255, 255, 1);
+font-size: 20px;
+font-weight: 600;
+margin-left:26px ;
+margin-top: 10px;
+
+}
+.yebi{
+    width: 335px;
+    margin-left: 26px;
+    height: 58px;
+    background: rgba(69, 90, 100, 1);
+border-radius: 3px !important;
+}
+.yebi-2{
+    width: 335px;
+    margin-left: 26px;
+    height: 78px;
+    background: rgba(69, 90, 100, 1);
+border-radius: 3px !important;
+}
+.btn-3{
+
+    width: 335px;
+    height: 47px;
+    border-radius: 5px;
+   background-color: rgba(254, 211, 106, 1);
+   margin-left: 26px;
+   color: #000; 
+   margin-top: 50px;
+}
+.hard li{
+    color: rgba(255, 255, 255, 1);
+}
+#error{
+    margin-top: 50px;
+    border-radius: 3px;
+    backdrop-filter: blur(10px);
+    color: rgb(213, 186, 186);
+    background-color:#a9b1b936;
+    margin-left: 30px;
+    width: 300px;
+}
+
+.col-10{
+    border-radius: 3px;
+    backdrop-filter: blur(10px);
+    color: rgb(231, 231, 231);
+    background-color:#a9b1b936;
+    margin-left: 30px;
+    width: 350px;
+  
+}
+.col-10 h3 {
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.col-10 p {
+    margin-left: 5px;
+}
+.strong {
+    text-align: right;
+}
+.time{
+    margin-top: 50px;
+    border-radius: 3px;
+    backdrop-filter: blur(10px);
+    color: rgb(231, 231, 231);
+  
+    margin-left: 40px;
+    text-align: right;
+     margin-right: 20px;
+     font-family: 'Times New Roman', Times, serif;
+    
+}
+.all-task{
+   
+    color: rgb(231, 231, 231);
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* .time {
+    position: relative;
+    right: 50px;
+    /* width: 200px;
+    height: 120px; */
+  
+
+@media only screen and (max-width:445px){
+    .start{
+        margin-left: 0px;
+        width: 444px;
+    }
+    .start img{
+
+        width: 93px;
+        height: 62px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .img img{
+        width: 361px;
+        height: 362px;
+        margin-left: 40px;
+        background: rgba(255, 255, 255, 1);
+}
+.btn{
+    width: 340px;
+    height: 67px;
+    border-radius: 5px;
+   background-color: rgba(254, 211, 106, 1);
+   margin-left: 25px;
+   color: #000;
+}
+.heading h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 61px;
+    font-weight: 600px;
+    margin-left:40px ;
+    line-height: 80px;
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading-2 h2{
+    color:rgba(254, 211, 106, 1);
+    font-size: 51px;
+    font-weight: 600px;
+    margin-left:40px ;
+    /* line-height: 60px; */
+   
+}
+.second{
+    width: 444px;
+    margin-left: 0;
+    background: rgba(33, 40, 50, 1);
+  
+  
+}
+.second img{
+    width: 149px;
+    height: 100px;
+    margin-top: 138px;
+    margin-left: 156px;
+}
+.second strong{
+    
+    margin-left:178px ;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 800;
+    font-size: 23px;
+
+}
+.second span{
+    font-size: 23px;
+    color:  rgba(254, 211, 106, 1);
+    font-weight: 800;
+}
+.log{
+    margin-left: 30px;
+}
+.wel h1{
+    color: rgba(255, 255, 255, 1);
+    font-size: 26px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.third{
+    width: 444px;
+    height: 1200px;
+    margin-left: 0;
+    background: rgba(33, 40, 50, 1);
+  
+  
+
+}
+.yebi{
+    width: 355px;
+    margin-left: 26px;
+    height: 58px;
+    background: rgba(69, 90, 100, 1);
+border-radius: 3px !important;
+}
+.yebi-2{
+    width: 355px;
+    margin-left: 26px;
+    height: 78px;
+    background: rgba(69, 90, 100, 1);
+border-radius: 3px !important;
+}
+.task{
+    margin-left: 20px;
+}
+}
