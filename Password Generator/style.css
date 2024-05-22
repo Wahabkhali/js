@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0 0 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;}
+
+.container{
+    background-color: #7fffd40d;
+      align-items: center;
+    flex-direction: column;
+    /* backdrop-filter: blur(10px); */
+    height: 280px;
+    width: 600px;
+    border-radius: 50px; 
+    justify-content : center;
+    border: 3px solid hsla(244, 89%, 57%, 0.51);
+}
+
+ .container h1{
+    margin-left: 165px;
+    color: #fff;
+   }
+.container input{
+    margin-left: 170px;
+     margin-top: 40px;
+     width: 250px;
+     height: 50px;
+     border-radius: 6px;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 20px;
+     border: none;
+     background-color:#4a4b89 ;
+     color: #fff;
+    padding-left: 85px;
+ 
+}
+.btn button{
+    margin-left: 110px;
+    margin-top: 70px;
+    width: 140px;
+    height: 35px;
+    background-color: rgb(16, 130, 168);
+    border-radius: 100px;
+    color: #000;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: none;
+}
+.btn :hover{
+    background-color: rgb(15, 15, 106);
+    color:#fff ;
+    transition: 0.5s;
+    
+   
+}
+
+.input-box :hover{
+    transition: 0.5s;
+    background-color: #fff;
+    border: 2px solid #4a4b89;
+    outline: #4a4b89;
+    color: #000;
+  
+
+}
+.btn-2 button{
+    margin-left: 280px;
+    margin-top: 0px;
+    width: 50px;
+    height: 35px;
+    color: #000;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 2px solid  rgb(16, 130, 168);
+    background-color: rgb(0 0 0);
+    
+}
+@media only screen and (max-width:750px){
+    html{
+  overflow-y: hidden;
+    }
+    .container{
+        width: 650px;
+        margin-top: 70px;
+        height: 350px;
+    }
+    .container input{
+        margin-left: 125px;
+         margin-top: 40px;
+         width: 400px;
+         height: 70px;
+         border-radius: 6px;
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 20px;
+         border: none;
+         background-color:#4a4b89 ;
+         color: #fff;
+        padding-left: 160px;
+     
+    }
+    .container h1{
+        margin-left: 195px;
+        color: #fff;
+       }
+       .btn-2 button{
+        margin-left: 300px;
+        margin-top: 0px;
+        width: 60px;
+        height: 35px;
+        color: #000;
+        cursor: pointer;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        border: 1px solid  rgb(16, 130, 168);
+        background-color: rgb(0 0 0);
+        
+    }
+    .btn button{
+        margin-left:120px;
+        margin-top: 70px;
+        width: 150px;
+        height: 40px;
+        background-color: rgb(16, 130, 168);
+        border-radius: 100px;
+        color: #000;
+        cursor: pointer;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        border: none;
+    }
+}
+@media only screen and (max-width:361px){
+    html{
+  overflow-y: hidden;
+    }
+    .container{
+        width: 300px;
+        margin-top: 40px;
+        height: 250px;
+    }
+    .container input{
+        margin-left: 50px;
+         margin-top: 40px;
+         width: 200px;
+         height: 40px;
+         border-radius: 6px;
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 20px;
+         border: none;
+         background-color:#4a4b89 ;
+         color: #fff;
+        padding-left: 60px;
+     
+    }
+    .container h1{
+        margin-left: 70px;
+        color: #fff;
+        font-size: 20px ;
+       }
+       .btn-2 button{
+        margin-left: 120px;
+        margin-top: 10px;
+        width: 50px;
+        height: 35px;
+        color: #000;
+        cursor: pointer;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        border: 1px solid  rgb(16, 130, 168);
+        background-color: rgb(0 0 0);
+        
+    }
+    .btn button{
+        margin-left:35px;
+        margin-top: 50px;
+        width: 90px;
+        height: 30px;
+        background-color: rgb(16, 130, 168);
+        border-radius: 100px;
+        color: #000;
+        cursor: pointer;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+        border: none;
+    }
+}
