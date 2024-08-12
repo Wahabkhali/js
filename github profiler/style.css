@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-left: 500px;
+    width: 500px;
+    height: 560px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(237, 237, 237);
+  
+
+}
+.card{
+  margin-left: 50px;
+  margin-bottom: 50px;
+
+ 
+
+}
+.input input{
+    width: 330px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-left: 20px;
+
+  
+  
+}
+.input img{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+cursor: pointer;
+margin-top: 15px;
+}
+.input{
+    width: 400px;
+    height: 50px;
+ display: flex;
+    border: 1px  rgb(255, 213, 0) solid;
+    border-radius: 100px;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color: #fff;
+   
+
+  
+
+}
+.img img{
+    width: 44px;
+    height: 44px;
+    margin-left: 600px;
+    margin-top: 17px;
+
+}
+.img{
+  margin: auto;
+display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: #24292f;
+  color: aliceblue;
+}
+.img h2{
+   margin-left: 10px;
+    margin-top: 20px;
+}
+.card-img-top{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.card-title{
+    margin-left: 83px;
+   
+}
+.card{
+    border: none;
+   background-color: cornsilk;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.card-title-2{
+    margin-left: 85px;
+}
+.card-body img{
+    width: 20px;
+    height: 20px;
+}
+.card-title-4{
+    margin-left: 14px;
+}
+.card-body button{
+    margin-top: 20px;
+    width: 188px;
+    height: 35px;
+    background: #2da44e;
+    margin-left: 30px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+      @media(min-width:320px) { 
+   
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            margin-left: 500px;
+            width: 500px;
+            height: 560px;
+            margin: auto;
+            margin-top: 50px;
+            background-color: rgb(237, 237, 237);
+          
+        
+        }
+        .card{
+          margin-left: 50px;
+          margin-bottom: 50px;
+        
+         
+        
+        }
+        .input input{
+            width: 330px;
+            padding: 10px;
+            outline: none;
+            border: none;
+            margin-left: 20px;
+        
+          
+          
+        }
+        .input img{
+        width: 20px;
+        height: 20px;
+        margin-left: 15px;
+        cursor: pointer;
+        margin-top: 15px;
+        }
+        .input{
+            width: 400px;
+            height: 50px;
+         display: flex;
+            border: 1px  rgb(255, 213, 0) solid;
+            border-radius: 100px;
+            margin-left: 40px;
+            margin-top: 20px;
+            background-color: #fff;
+           
+        
+          
+        
+        }
+        .img img{
+            width: 44px;
+            height: 44px;
+            margin-left: 600px;
+            margin-top: 17px;
+        
+        }
+        .img{
+          margin: auto;
+        display: flex;
+          width: 100%;
+          height: 70px;
+          background-color: #24292f;
+          color: aliceblue;
+        }
+        .img h2{
+           margin-left: 10px;
+            margin-top: 20px;
+        }
+        .card-img-top{
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+        .card-title{
+            margin-left: 83px;
+           
+        }
+        .card{
+            border: none;
+           background-color: cornsilk;
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+        .card-title-2{
+            margin-left: 85px;
+        }
+        .card-body img{
+            width: 20px;
+            height: 20px;
+        }
+        .card-title-4{
+            margin-left: 14px;
+        }
+        .card-body button{
+            margin-top: 20px;
+            width: 188px;
+            height: 35px;
+            background: #2da44e;
+            margin-left: 30px;
+            border-radius: 10px;
+            color: #fff;
+            font-weight: 700;
+        }
+      }
+      /* @media (max-width: 425px) { 
+        .img img{
+            width: 40px;
+            height: 40px;
+            margin-left: 50px;
+            margin-top: 7px;
+        
+        }
+        .img{
+        
+        display: flex;
+          width: 100%;
+          height: 50px;
+          background-color: #24292f;
+          color: aliceblue;
+        }
+        .img h2{
+        
+            margin-top: 10px;
+        }
+        .container{
+            margin-left: 500px;
+            width: 260px;
+            height: 560px;
+            margin: auto;
+            margin-top: 30px;
+            background-color: rgb(237, 237, 237);
+          
+        
+        }
+        .input input{
+            width: 145px;
+            padding: 0px;
+            outline: none;
+            border: none; 
+        }
+        .input img{
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+        cursor: pointer;
+        margin-top: 15px;
+        }
+        .input{
+            width: 210px;
+            height: 50px;
+         display: flex;
+            border: 1px  rgb(255, 213, 0) solid;
+            border-radius: 100px;
+            margin-left: 10px;
+            margin-top: 20px;
+            background-color: #fff;
+           
+        
+          
+        
+        }
+        .card{
+            border: none;
+           background-color: cornsilk;
+            margin-left: 0px;
+            margin-top: 20px;
+            width: 225px !important;
+            height: 440px;
+        }
+        .card-img-top{
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            margin-left: 60px;
+            margin-top: 20px;
+        }
+        .card-title{
+            margin-left: 40px;
+           
+        }
+        .card{
+            border: none;
+           background-color: cornsilk;
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+        .card-title-2{
+            margin-left: 43px;
+        }
+        .card-body img{
+            width: 15px;
+            height: 15px;
+        }
+        .card-title-4{
+            margin-left: 0px;
+        }
+        .card-body button{
+            margin-top: 10px;
+            width: 140px;
+            height: 30px;
+            background: #2da44e;
+            margin-left: 20px;
+            border-radius: 10px;
+            color: #fff;
+            font-weight: 700;
+        }
+        
+      }
+      @media (max-width: 320px) { 
+        .img img{
+            width: 40px;
+            height: 40px;
+            margin-left: 50px;
+            margin-top: 7px;
+        
+        }
+        .img{
+        
+        display: flex;
+          width: 100%;
+          height: 50px;
+          background-color: #24292f;
+          color: aliceblue;
+        }
+        .img h2{
+        
+            margin-top: 10px;
+        }
+        .container{
+            margin-left: 500px;
+            width: 260px;
+            height: 560px;
+            margin: auto;
+            margin-top: 30px;
+            background-color: rgb(237, 237, 237);
+          
+        
+        }
+        .input input{
+            width: 145px;
+            padding: 0px;
+            outline: none;
+            border: none; 
+        }
+        .input img{
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+        cursor: pointer;
+        margin-top: 15px;
+        }
+        .input{
+            width: 210px;
+            height: 50px;
+         display: flex;
+            border: 1px  rgb(255, 213, 0) solid;
+            border-radius: 100px;
+            margin-left: 10px;
+            margin-top: 20px;
+            background-color: #fff;
+           
+        
+          
+        
+        }
+        .card{
+            border: none;
+           background-color: cornsilk;
+            margin-left: 0px;
+            margin-top: 20px;
+            width: 225px !important;
+            height: 440px;
+        }
+        .card-img-top{
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            margin-left: 60px;
+            margin-top: 20px;
+        }
+        .card-title{
+            margin-left: 40px;
+           
+        }
+        .card{
+            border: none;
+           background-color: cornsilk;
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+        .card-title-2{
+            margin-left: 43px;
+        }
+        .card-body img{
+            width: 15px;
+            height: 15px;
+        }
+        .card-title-4{
+            margin-left: 0px;
+        }
+        .card-body button{
+            margin-top: 10px;
+            width: 140px;
+            height: 30px;
+            background: #2da44e;
+            margin-left: 20px;
+            border-radius: 10px;
+            color: #fff;
+            font-weight: 700;
+        }
+        
+      }
+      @media (max-width: 768px) { 
+        .img img{
+            width: 40px;
+            height: 40px;
+            margin-left: 250px;
+            margin-top: 7px;
+        
+        }
+        .img{
+        
+        display: flex;
+          width: 100%;
+          height: 50px;
+          background-color: #24292f;
+          color: aliceblue;
+        }
+        .img h2{
+        
+            margin-top: 10px;
+        }
+        .container{
+            margin-left: 500px;
+            width: 860px;
+            height: 560px;
+            margin: auto;
+            margin-top: 30px;
+            background-color: rgb(237, 237, 237);
+          
+        
+        }
+        .input input{
+            width: 425px;
+            padding: 0px;
+            outline: none;
+            border: none; 
+        }
+        .input img{
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+        cursor: pointer;
+        margin-top: 15px;
+        }
+        .input{
+            width: 490px;
+            height: 50px;
+         display: flex;
+            border: 1px  rgb(255, 213, 0) solid;
+            border-radius: 100px;
+            margin-left: 10px;
+            margin-top: 20px;
+            background-color: #fff;
+           
+        
+          
+        
+        }
+        .card{
+            border: none;
+           background-color: cornsilk;
+            margin-left: 0px;
+            margin-top: 20px;
+            width: 507px !important;
+            height: 400px;
+        }
+        .card-img-top{
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            margin-left: 200px;
+            margin-top: 20px;
+        }
+        .card-title{
+            margin-left: 180px;
+           
+        }
+        .card{
+            border: none;
+           background-color: cornsilk;
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+        .card-title-2{
+            margin-left: 183px;
+        }
+        .card-body img{
+            width: 15px;
+            height: 15px;
+        }
+        .card-title-4{
+            margin-left: 0px;
+        }
+        .card-body button{
+            margin-top: 30px;
+            width: 340px;
+            height: 30px;
+            background: #2da44e;
+            margin-left: 60px;
+            border-radius: 10px;
+            color: #fff;
+            font-weight: 700;
+        }
+        
+      } */
