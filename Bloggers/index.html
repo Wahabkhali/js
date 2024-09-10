@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Website ">
+    <link rel="shortcut icon" href="./assist/img/blog.png" type="image/x-icon">
+
+    <title>Blogger.com</title>
+    <link rel="stylesheet" href="./assist/img/bootstap/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+   <div class="main">
+<div class="conatiner">
+    <div class="row">
+      <div class="col">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="./assist/img/blog.png" alt="Logo">
+                </div>
+                <ul class="nav-links">
+                    <li><button id="showdata" href="">Your Blog</button></li>
+                    <li><button id="openModalBtn" href="#about">Create Your Blog</button></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+ 
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Create Your Blog</h2>
+             <h4>Blog Image :</h4>
+          <div class="file">
+                <input type="file" name="" id="file" required>
+          </div>
+          <h4>Choose a name for your blog
+          </h4>
+          <div class="file">
+            <input type="text" name="" id="title" required>
+          </div>
+          <h4>Blog Descruption :</h4>
+          <div class="desc">
+          <input type="text" name="" id="decs" required>
+          </div>
+          <button id="adding" type="">Add Blog</button>
+         </div>
+    </div>
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="./assist/img/Blog_logo_Header.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://burst.shopifycdn.com/photos/laptop-from-above.jpg?width=1000&format=pjpg&exif=0&iptc=0" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://burst.shopifycdn.com/photos/laptop-on-desk-from-above.jpg?width=1000&format=pjpg&exif=0&iptc=0" style="width:100%">
+  </div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+ 
+
+
+
+
+    <section class="cards">
+        <div class="container">
+            <div id="cards" class="row">
+              <div class="mar-t col-md-4 card-container">
+                <div class="card">
+                <div class="img-content">
+                  <img src="./assist/img/Blog_logo_Header.jpeg" alt="">
+                </div>
+                <div class="content">
+                  <p class="heading">Blog</p>
+                  <p>
+                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo distinctio, reiciendis, minima voluptatem enim possimus neque, veniam doloribus quos qui cum asperiores est voluptatum quidem illum doloremque. Nobis, quis atque.
+                  </p>
+                </div>
+              </div>
+              </div>
+              <div class="mar-t col-md-4 card-container">
+                <div class="card">
+                <div class="img-content">
+                  <img src="./assist/img/Blog_logo_Header.jpeg" alt="">
+                </div>
+                <div class="content">
+                  <p class="heading">Blog</p>
+                  <p>
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ab quaerat repellat, culpa laborum id harum eos explicabo eaque, natus reiciendis voluptate quis nam quasi officiis, ipsa qui tempore. Vel.                  </p>
+                </div>
+              </div>
+              </div>
+              <div class="mar-t col-md-4 card-container">
+                <div class="card">
+                <div class="img-content">
+                  <img src="./assist/img/Blog_logo_Header.jpeg" alt="">
+                </div>
+                <div class="content">
+                  <p class="heading">Blog</p>
+                  <p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nesciunt vel doloribus explicabo atque repellendus cumque dolore adipisci rerum alias tempore ipsam velit deserunt beatae, dolorum, consequatur hic assumenda quisquam.                  </p>
+                </div>
+              </div>
+              </div>
+            </div>
+            </div>
+            </section>
+
+           
+            <div class="loader"></div>
+            
+            <section class="footer">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-2">
+                  <div class="links">
+                    <p>POPULAR TRANDING</p>
+                    <ul>
+                      <li>
+                      Your Own
+                      </li>
+                    </ul>
+              
+                    <ul>
+                      <li>
+                        Bussiness
+                      </li>
+                    </ul>
+              
+              
+                    <ul>
+                      <li>
+                      Study
+                      </li>
+                    </ul>
+              
+                    <ul>
+                      <li>
+                    Read
+                      </li>
+                    </ul>
+                  </div>
+                    </div>
+                    
+              
+                    <div class="col-md-2">
+                      <div class="home">
+                        <p>ABOUT US</p>
+                        <ul>
+                          <li>
+                            About Dubizzle Group
+                          </li>
+                        </ul>
+                  
+                        <ul>
+                          <li>
+                            Our Website Blog
+                          </li>
+                        </ul>
+                  
+                  
+                        <ul>
+                          <li>
+                            Contact Us
+                          </li>
+                        </ul>
+                  
+                        <ul>
+                          <li>
+                            Blog for Businesses
+                          </li>
+                        </ul>
+                  
+    
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="olx">
+                        <p>Website</p>
+                        <ul>
+                          <li>
+                            Help
+                          </li>
+                        </ul>
+                  
+                        <ul>
+                          <li>
+                            Sitemap
+                          </li>
+                        </ul>
+                  
+                  
+                        <ul>
+                          <li>
+                            Terms of use
+                          </li>
+                        </ul>
+                  
+                        <ul>
+                          <li>
+                            Privacy Policy
+                          </li>
+                        </ul>
+                      
+            
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="follow">
+              
+              <p>FOLLOW US</p>
+              
+              <div class="icons">
+              
+              <img src="https://www.olx.com.pk/assets/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg" alt="">
+              
+              
+              
+                <img src="https://www.olx.com.pk/assets/iconFacebook_noinline.773db88c5b9ee5aaab365e61cdb750da.svg" alt="">
+                
+                
+                  <img src="https://www.olx.com.pk/assets/iconInstagram_noinline.d7d5811ebc44e03a674c8d0b5ff3f232.svg" alt="">
+              
+                  <img src="./assist/img/yuotube.svg" alt="">
+                </div>
+              <div class="play">
+              <img src="./assist/img/app store.svg" alt="">
+              
+              <img src="./assist/img/google play.svg" alt="">
+              
+              <img src="./assist/img/app galley.svg" alt="">
+              </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+
+
+
+
+    <script src="./firebase.js" type="module"></script>
+    <script src="./app.js" type="module"></script>
+</body>
+</html>
